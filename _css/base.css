@@ -222,3 +222,17 @@ code {
 	/*background-color: #b0a8b7; /*remove bg color*/*/
 	max-width: 200px;
 }
+
+.form-skills, .form-workshop {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.form-skills li {
+	width: 145px;
+}
+
+.form-workshop li {
+	flex: 1 0 200px;
+}
