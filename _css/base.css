@@ -203,6 +203,19 @@ code {
 
 /****** Flexbox styles **************/
 
+.register-form {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.form-group {
+	flex: 1 0 300px;
+}
+
+.form-submit {
+	flex: 0 0 100%;
+}
+
 .form-fields li {
 	display: flex;
 	flex-wrap: wrap;
