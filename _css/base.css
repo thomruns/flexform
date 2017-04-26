@@ -121,6 +121,7 @@ code {
 /*********** Form Styles *************/
 .register-form {
 	line-height: 1.4;
+	margin-right: -2em;
 }
 
 .form-group {
@@ -210,6 +211,7 @@ code {
 
 .form-group {
 	flex: 1 0 300px;
+	margin-right: 2em;
 }
 
 .form-submit {
