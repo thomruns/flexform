@@ -199,3 +199,26 @@ code {
 }
 .register-btn:hover, .register-btn:focus {
 	background: #C17CCF;
+}
+
+/****** Flexbox styles **************/
+
+.form-fields li {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.form-fields input[type="text"],
+.form-fields input[type="tel"],
+.form-fields input[type="url"],
+.form-fields input[type="email"],
+.form-fields input[type="number"],
+.form-fields select {
+	flex: 1 0 230px;
+}
+
+.form-fields label {
+	flex: 1 0 90px;
+	/*background-color: #b0a8b7; /*remove bg color*/*/
+	max-width: 200px;
+}
